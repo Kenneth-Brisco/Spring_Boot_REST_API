@@ -12,7 +12,7 @@ public class Student {
     private final String lastName;
     private final String project;
 
-//Tell Jackson to create an instance of the Student below by using some special annotations.
+//Tell Jackson to create an instance of the Student below by using some special annotati
     public Student(
 
             @JsonProperty("id")   UUID id,
